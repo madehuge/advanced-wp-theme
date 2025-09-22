@@ -1,0 +1,84 @@
+.job_card {
+  background: $color__white;
+  border: 1px solid #c4d2db;
+  border-radius: 20px;
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: all 0.3s ease;
+  position: relative;
+  height: 100%;
+
+  &:hover {
+    box-shadow: 0 8px 25px rgba($color__black, 0.1);
+    // transform: translateY(-2px);
+  }
+
+  .job_type_badge {
+    align-self: flex-start;
+
+    span {
+      background: rgba($color__blue, 0.29);
+      color: $color__primary;
+      padding: 8px 16px;
+      border-radius: 35px;
+      font-size: 14px;
+      line-height: 1.714;
+      font-weight: 400;
+    }
+  }
+
+  .job_content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .job_title {
+    font-size: 24px;
+    line-height: 1.333;
+    color: $color__primary;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .job_description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5A6A83;
+    margin: 0;
+  }
+
+  .job_details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  .job_detail_item {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $color__lightSlateGray;
+    font-weight: 400;
+    >span{
+      color: $color__primary;
+    }
+  }
+}
+
+  .load_more_btn_holder {
+    &.mt_50{
+      margin-top: 50px;
+    }
+  }
+
+.job_listings_section {
+
+}
+
+.career_filter_section{
+  
+}

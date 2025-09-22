@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Helvetica LT';
+    src: url('../fonts/HelveticaLT.eot');
+    src: url('../fonts/HelveticaLT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HelveticaLT.woff2') format('woff2'),
+        url('../fonts/HelveticaLT.woff') format('woff'),
+        url('../fonts/HelveticaLT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$basefont: 'Helvetica LT';
+//$basefont:  'Stara';
+// $basefont: 'Playfair Display', serif;
+
+$body-font-sizes: (
+  null : (16px,1.5),
+  sm   : (16px,1.5),
+  md   : (16px,1.5),
+  lg   : (16px,1.5),
+  xl   : (16px,1.5),
+  xxl  : (16px,1.5),
+  xxxl : (20px,1.5)
+);
+
+
+// $h1-sizes: (
+//   null :(36px,1.2),
+//   sm  : (46px,1.2),
+//   md  : (56px,1.2),
+//   lg  : (66px,1.2),
+//   xl  : (76px,1.2),
+//   xxl  : (76px,1.2)
+// );
+
+// $h2-sizes: (
+//   null :(30px,1.1),
+//   sm  : (32px,1.1),
+//   md  : (36px,1.1),
+//   lg  : (40px,1.1),
+//   xl  : (44px,1.2),
+//   xxl  : (44px,1.2)
+// );
+
+// $h3-sizes: (
+//   null :(18px,1.2),
+//   sm  : (20px,1.2),
+//   md  : (23px,1.2),
+//   lg  : (26px,1.2),
+//   xl  : (32px,1.2),
+//   xxl  : (32px,1.2),
+//   xxxl  : (44px,1.2)
+// );
+
+// $h4-sizes: (
+//   null :(24px,1.2),
+//   sm  : (24px,1.6),
+//   md  : (28px,1.2),
+//   lg  : (28px,1.2),
+//   xl  : (32px,1.2),
+//   xxl : (32px,1.2),
+//   xxxl : (32px,1.2)
+// );
+
+// $h5-sizes: (
+//   null :(16px,1.6),
+//   sm  : (16px,1.6),
+//   md  : (20px,1.7),
+//   lg  : (20px,1.7),
+//   xl  : (24px,1.7),
+//   xxl  : (24px,1.7),
+//   xxxl  : (24px,1.7)
+// );
+
+// $h6-sizes: (
+//   null :(14px,1.2),
+//   md  : (15px,1.2),
+//   lg  : (15px,1.2),
+//   xl  : (16px,1.3),
+//   xxl : (16px,1.3),
+//   xxxl : (20px,1.3)
+// );
+
+
+$banner-headingText-sizes: (
+  null :(28px,1.2),
+  sm  : (28px,1.2),
+  md  : (32px,1.14),
+  lg  : (36px,1.14),
+  xl  : (48px,1.14),
+  xxl  : (48px,1.14),
+  xxxl  : (52px,1.14)
+);
+
+$secMain-headingText-sizes: (
+  null :(28px,1.2),
+  sm  : (28px,1.2),
+  md  : (32px,1.14),
+  lg  : (36px,1.14),
+  xl  : (48px,1.14),
+  xxl  : (48px,1.14),
+  xxxl  : (52px,1.14)
+);
+
+$secMain-headingText-2-sizes: (
+  null :(26px,1.22),
+  sm  : (26px,1.22),
+  md  : (30px,1.22),
+  lg  : (32px,1.22),
+  xl  : (36px,1.22),
+  xxl  : (36px,1.22),
+  xxxl  : (40px,1.22)
+);
+
+$counter-headingText-sizes: (
+  null :(30px,1),
+  sm  : (30px,1),
+  md  : (34px,1),
+  lg  : (34px,1),
+  xl  : (48px,1),
+  xxl  : (48px,1),
+  xxxl  : (48px,1)
+);
+
+$h32-sizes: (
+  null :(24px,1.3),
+  sm  : (24px,1.3),
+  md  : (26px,1.3),
+  lg  : (28px,1.3),
+  xl  : (32px,1.3),
+  xxl  : (32px,1.3),
+  xxxl  : (36px,1.3)
+);
+
+$h24-sizes: (
+  null :(18px,1.3),
+  sm  : (18px,1.3),
+  md  : (20px,1.3),
+  lg  : (20px,1.3),
+  xl  : (24px,1.3),
+  xxl  : (24px,1.3),
+  xxxl  : (28px,1.3)
+);
+
+
